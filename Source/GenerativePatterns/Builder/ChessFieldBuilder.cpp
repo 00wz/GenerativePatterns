@@ -28,7 +28,6 @@ void UChessFieldBuilder::BuildBonuses_Implementation()
 	{
 		auto x = rand() % field->FIELD_SIDE_LENGTH;
 		auto y = rand() % field->FIELD_SIDE_LENGTH;
-		UE_LOG(LogTemp, Warning, TEXT("%d"), x);
 		if(field->Field[y][x] == EFieldPointType::EMPTY)
 		{
 			field->Field[y][x] = EFieldPointType::BONUS;
