@@ -8,7 +8,7 @@
 #include "ChessFieldBuilder.generated.h"
 
 /**
- * 
+ * a builder making an arkanoid field in the shape of a chessboard
  */
 UCLASS()
 class GENERATIVEPATTERNS_API UChessFieldBuilder : public UObject, public IIFieldBuilder

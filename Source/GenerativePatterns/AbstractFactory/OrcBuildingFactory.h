@@ -8,7 +8,7 @@
 #include "OrcBuildingFactory.generated.h"
 
 /**
- * 
+ * The construction factory of the Orc race
  */
 UCLASS()
 class GENERATIVEPATTERNS_API UOrcBuildingFactory : public UObject, public IAbstractBuildingFactory

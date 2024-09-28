@@ -16,16 +16,22 @@ class UAbstractBuildingFactory : public UInterface
 };
 
 /**
- * 
+ * interface for building factories of different races
  */
 class GENERATIVEPATTERNS_API IAbstractBuildingFactory
 {
 	GENERATED_BODY()
 
 public:
+	/*
+	 * build a castle
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	AAbstractStronghold* BuildStronghold();
-	
+
+	/*
+	 * Build a barracks
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	AAbstractBarrack* BuildBarrack();
 };

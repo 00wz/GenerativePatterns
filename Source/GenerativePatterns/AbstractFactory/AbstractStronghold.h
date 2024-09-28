@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "AbstractStronghold.generated.h"
-
+/*
+ *base class for all fortresses
+ */
 UCLASS(Abstract, Blueprintable)
 class GENERATIVEPATTERNS_API AAbstractStronghold : public AActor
 {

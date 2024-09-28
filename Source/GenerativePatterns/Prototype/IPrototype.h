@@ -14,13 +14,17 @@ class UIPrototype : public UInterface
 };
 
 /**
- * 
+ * an interface for objects capable of making their own clones
  */
 class GENERATIVEPATTERNS_API IIPrototype
 {
 	GENERATED_BODY()
 	
 public:
+
+	/*
+	 *create your own clone
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	UObject* Clone();
 public:

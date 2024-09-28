@@ -4,6 +4,9 @@
 
 #include "CoreMinimal.h"
 
+/*
+ *types of blocks
+ */
 UENUM()
 enum EFieldPointType
 {

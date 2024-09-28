@@ -8,7 +8,7 @@
 #include "AllianceBuildingFactory.generated.h"
 
 /**
- * 
+ * The construction factory of the Alliance race
  */
 UCLASS()
 class GENERATIVEPATTERNS_API UAllianceBuildingFactory : public UObject, public IAbstractBuildingFactory

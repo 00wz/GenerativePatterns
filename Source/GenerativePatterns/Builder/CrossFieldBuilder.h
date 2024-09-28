@@ -8,7 +8,7 @@
 #include "CrossFieldBuilder.generated.h"
 
 /**
- * 
+ * a builder making an arkanoid field in the shape of a cross
  */
 UCLASS()
 class GENERATIVEPATTERNS_API UCrossFieldBuilder : public UObject, public IIFieldBuilder

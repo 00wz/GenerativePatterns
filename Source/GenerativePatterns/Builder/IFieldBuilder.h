@@ -15,20 +15,29 @@ class UIFieldBuilder : public UInterface
 };
 
 /**
- * 
+ * interface for various arkanoid field builders
  */
 class GENERATIVEPATTERNS_API IIFieldBuilder
 {
 	GENERATED_BODY()
 
 public:
-	
+
+	/*
+	 *arrange the blocks
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void BuildBlocks();
-	
+
+	/*
+	 *arrange the bonuses
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	void BuildBonuses();
-	
+
+	/*
+	 *return the result
+	 */
 	UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
 	UArcanoidField* GetResult();
 };

@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "AbstractBarrack.generated.h"
 
+/*
+ * Basic class for all barracks
+ */
 UCLASS(Abstract, Blueprintable)
 class GENERATIVEPATTERNS_API AAbstractBarrack : public AActor
 {

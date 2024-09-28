@@ -8,7 +8,7 @@
 #include "ArcanoidField.generated.h"
 
 /**
- * 
+ * the model of the field for the arkanoid game
  */
 UCLASS()
 class GENERATIVEPATTERNS_API UArcanoidField : public UObject
